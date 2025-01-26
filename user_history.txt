@@ -1,0 +1,11 @@
+    1  wget https://www.python.org/ftp/python/3.10.12/Python3.10.12.tgz
+    2  wget https://www.python.org/ftp/python/3.10.12/Python-3.10.12.tgz
+    3  tar -xvf Python-3.10.12.tgz
+    4  cd Python-3.10.12
+    5  ./configure --enable-optimizations
+    6  make
+    7  sudo make install
+    8  pip install --upgrade pip
+    9  pip install label-studio
+   10  label-studio
+   11  history > user_history.txt
